@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #262626;
+}
+
+.footerText{
+    margin: 0;
+    color: white;
+}
+
+.footerSection{
+    margin-right: 2rem;
+}
+
+.footerHeader{
+    color: white;
+}
