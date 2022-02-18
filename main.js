@@ -47,24 +47,17 @@ console.log(day);
 document.getElementById('wordOfDay').innerHTML = wordOfDayArray[day];
 document.getElementById('wordDesricption').innerHTML = wordDesricptionArray[day];
 
-let footerTexts = document.getElementsByClassName("footerText");
-let footerHeaders = document.getElementsByClassName("footerHeader");
+let textSize = document.getElementsByClassName("textSize");
 
 function enlarge() {
-    for (let i = 0; i < footerTexts.length; i++) {
-        footerTexts[i].style.fontSize = "x-large";
-    }
-    for (let i = 0; i < footerHeaders.length; i++) {
-        footerHeaders[i].style.fontSize = "x-large";
+    for (let i = 0; i < textSize.length; i++) {
+        textSize[i].style.fontSize = "x-large";
     }
 }
 
 function minimize() {
-    for (let i = 0; i < footerTexts.length; i++) {
-        footerTexts[i].style.fontSize = "initial";
-    }
-    for (let i = 0; i < footerHeaders.length; i++) {
-        footerHeaders[i].style.fontSize = "initial";
+    for (let i = 0; i < textSize.length; i++) {
+        textSize[i].style.fontSize = "initial";
     }
 }
 
